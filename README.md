@@ -11,10 +11,13 @@ Prometeo can now be thought off as a testbench designed to provide all of the fu
 
 The current Prometeo testbench setup produces the following tests of the MB/DB configuration:
 
--- ADC Linearity: This test checks the linarity of the response in the analogue-to-digital conversion on the MB+DB setup.
--- CIS Linearity: This test checks the linearity of the response for a simulated charge injection in the demonstrator.
--- CIS Shape: This test checks the shape of the response for a simulated charge injection in the demonstrator.
--- Pedestal noise: This test checks the noise and determindes the pedestal for the demonstrator system under some response test. A pedestal can be thought off as the offset one must calculated and subtract, due to the presence of (typically) some form of fixed pattern noise in e.g. the detector readout electronics. 
+1) ADC Linearity: This test checks the linarity of the response in the analogue-to-digital conversion on the MB+DB setup.
+
+2) CIS Linearity: This test checks the linearity of the response for a simulated charge injection in the demonstrator.
+
+3) CIS Shape: This test checks the shape of the response for a simulated charge injection in the demonstrator.
+
+4) Pedestal noise: This test checks the noise and determindes the pedestal for the demonstrator system under some response test. A pedestal can be thought off as the offset one must calculated and subtract, due to the presence of (typically) some form of fixed pattern noise in e.g. the detector readout electronics. 
 
 These tests are currently carried out using the python scripts and configuration files found in https://gitlab.cern.ch/fcarrio/prometeogui/tree/dev_MikeUpdates/GUI/scripts. The final GUI produced here will allow the user to fully implement these tests without relying on the python wrapper itself, for ease of use. 
 
