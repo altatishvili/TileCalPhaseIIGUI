@@ -1,0 +1,15 @@
+[submodule "tilepprdemojava"]
+	path = tilepprdemojava
+	url = https://gitlab.cern.ch/valls/tilepprdemojava
+[submodule "jvfchart"]
+	path = jvfchart
+	url = https://gitlab.cern.ch/valls/jvfchart
+[submodule "ipbusjavalibrary"]
+	path = ipbusjavalibrary
+	url = https://gitlab.cern.ch/valls/ipbusjavalibrary
+[submodule "tilepprjavalibrary"]
+	path = tilepprjavalibrary
+	url = https://gitlab.cern.ch/valls/tilepprjavalibrary
+[submodule "prometeogui"]
+	path = prometeogui
+	url = https://gitlab.cern.ch/fcarrio/prometeogui
