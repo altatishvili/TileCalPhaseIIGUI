@@ -1,3 +1,0 @@
-[submodule "prometeogui"]
-	path = prometeogui
-	url = https://:@gitlab.cern.ch:8443/fcarrio/prometeogui.git
